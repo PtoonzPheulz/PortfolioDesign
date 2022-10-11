@@ -2,7 +2,42 @@ body {
   margin: 0; 
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+:root{
+  --primary:#BC4749;
+  --secondary:rgba(188, 71, 73, 0.15);
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+
+}
 
 code {
   font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.text-1{
+  color: var(--primary) !important;
+}
+.bg-1{
+  background-color: var(--primary) !important;
+}
+.bg-11{
+  border: 2px solid var(--primary) !important;
+}
+.bg-2{
+  background-color: var(--secondary) !important;
+}
+.h8{
+  font-size: 17.5px;
+}
+
+.fw-1{
+font-weight: 400 !important;
+}
+
+.navselect{
+  border-bottom: 1px solid var(--primary) ;
+  padding-bottom: 0px;
+  color: var(--primary) !important;
 }
